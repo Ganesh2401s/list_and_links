@@ -1,0 +1,36 @@
+* {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+.imageContainer {
+    width: 30%;
+    margin: auto;
+}
+
+#listsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#textLinks {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#textLinks > a {
+    font-size: 1.5rem;
+}
+
+.links > span {
+    font-size: 2rem;
+     
+}
